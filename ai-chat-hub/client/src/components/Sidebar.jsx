@@ -7,12 +7,12 @@ function Sidebar({ conversations, currentId, onSelect, onNew }) {
     <>
       <div className="mobile-header">
         <button className="menu-btn" onClick={() => setIsOpen(true)}>☰</button>
-        <span>AI 咨询平台</span>
+        <span>AiChat Hub</span>
       </div>
       {isOpen && <div className="overlay" onClick={() => setIsOpen(false)} />}
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <h1>🤖 AI 咨询</h1>
+          <h1>🤖 AiChat Hub</h1>
           <button className="new-chat-btn" onClick={() => { onNew(); setIsOpen(false); }}>
             + 新建对话
           </button>

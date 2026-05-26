@@ -1,7 +1,7 @@
 {
-  "name": "ai-consult-server",
+  "name": "ai-chat-hub-server",
   "version": "1.0.0",
-  "description": "AI咨询平台后端服务",
+  "description": "AiChat Hub 后端服务",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

@@ -13,7 +13,7 @@ function ChatWindow({ messages, isLoading }) {
       <div className="chat-window">
         <div className="welcome-screen">
           <div className="icon">🤖</div>
-          <h2>AI 咨询平台</h2>
+          <h2>AiChat Hub</h2>
           <p>我是您的AI咨询助手，可以为您提供专业的建议和解答。请在下方输入您的问题开始对话。</p>
         </div>
       </div>

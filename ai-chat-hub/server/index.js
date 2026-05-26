@@ -19,5 +19,5 @@ app.get('/api/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`AI咨询平台后端服务已启动: http://localhost:${PORT}`);
+  console.log(`AiChat Hub 后端服务已启动: http://localhost:${PORT}`);
 });
